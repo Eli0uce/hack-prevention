@@ -1,0 +1,3981 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+menu,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  line-height: 1.4;
+  word-break: break-word;
+}
+body {
+  overflow: hidden !important;
+}
+#page-wrapper-react {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#no-cookies {
+  display: none;
+}
+#site-header {
+  z-index: 10;
+}
+.root-97 {
+  outline: transparent;
+  position: absolute;
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 120, 212);
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 2px;
+  min-width: 80px;
+  height: inherit;
+  background-color: rgb(0, 120, 212);
+  color: rgb(255, 255, 255);
+  left: 8px;
+  top: 0px;
+  transform: translateY(-100%);
+  z-index: 10000;
+  user-select: none;
+}
+.root-97:focus {
+  transform: translateY(25%);
+  background: rgb(0, 111, 201);
+}
+.root-97:hover {
+  background-color: rgb(16, 110, 190);
+  border: 1px solid rgb(16, 110, 190);
+  color: rgb(255, 255, 255);
+}
+.root-97:active {
+  background-color: rgb(0, 90, 158);
+  border: 1px solid rgb(0, 90, 158);
+  color: rgb(255, 255, 255);
+}
+.root-97:active > span {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.flexContainer-98 {
+  display: flex;
+  height: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.textContainer-99 {
+  flex-grow: 1;
+  display: block;
+}
+.label-101 {
+  margin: 0px 4px;
+  line-height: 100%;
+  display: block;
+  font-weight: 600;
+}
+.css-105 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.css-105 > * {
+  text-overflow: ellipsis;
+}
+.css-105 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+._3TaIEDb0MglTsjO0NuDT_ {
+  height: 48px;
+}
+._1JAyGkJKb5o9RtQTwrtrKw {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border-spacing: 0px;
+  white-space: nowrap;
+  line-height: normal;
+}
+.o365sx-navbar {
+  background-color: rgb(0, 111, 201);
+  background-position: left top;
+  background-repeat-x: repeat;
+  background-image: none;
+}
+._3jdP3smoQvl9jAbqn0fNe5 {
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 100%;
+}
+._3YBVnSXF1p3GXe-LA90QS6 {
+  height: 100%;
+  line-height: 48px;
+  display: flex;
+}
+._2sngRVSfiZnZSR2_elJ0bG,
+._2Z1l2FxAtwx1-JbhdjiLiw {
+  display: block;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  min-width: 48px;
+  text-align: center;
+  cursor: pointer;
+  outline-offset: -1px;
+}
+._2sngRVSfiZnZSR2_elJ0bG:hover,
+._2Z1l2FxAtwx1-JbhdjiLiw:hover {
+  transition: background-color 0.467s cubic-bezier(0.1, 0.9, 0.2, 1) 34ms;
+}
+._2sngRVSfiZnZSR2_elJ0bG {
+  background: transparent;
+  border-width: 0px;
+  width: auto;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: visible;
+}
+.o365cs-base .o365sx-button {
+  color: rgb(242, 242, 242);
+  background-color: rgb(0, 111, 201);
+}
+.o365cs-base .o365sx-waffle {
+  color: rgb(242, 242, 242);
+  background-color: rgb(0, 111, 201);
+}
+.o365cs-base .o365sx-button:hover {
+  color: rgb(242, 242, 242);
+  background-color: rgb(0, 107, 195);
+}
+.o365cs-base .o365sx-button :focus {
+  color: rgb(242, 242, 242);
+  background-color: rgb(0, 107, 195);
+}
+.o365cs-base .o365sx-button:active {
+  background-color: rgb(0, 91, 165);
+}
+.o365cs-base .o365sx-button:focus {
+  outline: rgb(242, 242, 242) solid 1px;
+}
+.o365cs-base .ms-Icon--WaffleOffice365::before {
+  content: "";
+}
+.o365cs-base .ms-Icon--BusinessCentralLogo::before,
+.o365cs-base .ms-Icon--ClipchampLogo::before,
+.o365cs-base .ms-Icon--CloudPCLogo::before,
+.o365cs-base .ms-Icon--DesignerLogo::before,
+.o365cs-base .ms-Icon--FamilySafetyLogo::before,
+.o365cs-base .ms-Icon--LoopLogo::before,
+.o365cs-base .ms-Icon--PrivacyLogo::before,
+.o365cs-base .ms-Icon--RewardsLogo::before,
+.o365cs-base .ms-Icon--VivaEngageLogo::before,
+.o365cs-base .ms-Icon--VivaGoalsLogo::before,
+.o365cs-base .ms-Icon--VivaInsightsLogo::before,
+.o365cs-base .ms-Icon--VivaLearningLogo::before,
+.o365cs-base .ms-Icon--VivaPulseLogo::before,
+.o365cs-base .ms-Icon--VivaTopicsLogo::before,
+.o365cs-base .ms-Icon--WaffleOffice365::before {
+  content: "";
+}
+._3ED70uyWABigsjWEIWPHEM {
+  display: flex;
+  flex: 1 0 auto;
+  height: 100%;
+}
+._2mBDn0rQL2ydXWUGzuMkG- {
+  height: 48px;
+  display: flex;
+}
+._3tMIPlDhtt_BfUWurbsxvD {
+  height: 100%;
+  line-height: 48px;
+  display: flex;
+}
+._2snzFD6PQiLt7Zw71oYsJL {
+  display: inherit;
+  flex: inherit;
+  justify-content: inherit;
+  order: inherit;
+  align-self: inherit;
+  min-width: inherit;
+}
+.root-278 {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: inherit;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  outline: none;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 20px;
+}
+.root-278:active {
+  color: rgb(242, 242, 242);
+  text-decoration: none;
+  background: rgb(0, 91, 165);
+}
+.root-278:hover {
+  color: rgb(242, 242, 242);
+  text-decoration: none;
+  background: rgb(0, 107, 195);
+}
+.root-278:active:hover {
+  color: rgb(242, 242, 242);
+  text-decoration: none;
+  background: rgb(0, 91, 165);
+}
+.root-278:focus {
+  color: rgb(242, 242, 242);
+  background: rgb(0, 111, 201);
+  text-decoration: none;
+  outline: none;
+}
+.root-278:link {
+  color: rgb(242, 242, 242);
+  background: rgb(0, 111, 201);
+  text-decoration: none;
+}
+.root-278:link:hover {
+  color: rgb(242, 242, 242);
+  background: rgb(0, 107, 195);
+  text-decoration: none;
+}
+.wrapper-279 {
+  display: inline-flex;
+  height: 100%;
+  align-items: center;
+  margin-left: 0px;
+}
+.divider-280 {
+  width: 1px;
+  height: 24px;
+  background-color: rgb(200, 198, 196);
+  margin-top: auto;
+  margin-bottom: auto;
+  color: rgb(255, 255, 255);
+  margin-right: 8px;
+}
+#suite-header-root #centerMiddle {
+  overflow: hidden;
+}
+#suite-header-root #navs_container {
+  display: block;
+  width: 100%;
+}
+.root-281 {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 48px;
+}
+.item-282 {
+  flex-shrink: 0;
+  display: inherit;
+}
+.root-284 {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: inherit;
+  color: rgb(242, 242, 242);
+  outline: none;
+  text-decoration: none;
+  background: rgb(0, 111, 201);
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-right: 16px;
+}
+.root-284:active {
+  color: rgb(242, 242, 242);
+  text-decoration: none;
+  background: rgb(0, 91, 165);
+}
+.root-284:hover {
+  color: rgb(242, 242, 242);
+  text-decoration: none;
+  background: rgb(0, 107, 195);
+}
+.root-284:active:hover {
+  color: rgb(242, 242, 242);
+  text-decoration: none;
+  background: rgb(0, 91, 165);
+}
+.root-284:focus {
+  color: rgb(242, 242, 242);
+  background: rgb(0, 111, 201);
+  text-decoration: none;
+  outline: none;
+}
+.root-284:link {
+  color: rgb(242, 242, 242);
+  background: rgb(0, 111, 201);
+  text-decoration: none;
+}
+.root-284:link:hover {
+  color: rgb(242, 242, 242);
+  background: rgb(0, 107, 195);
+  text-decoration: none;
+}
+.root-285 {
+  outline: transparent;
+  position: relative;
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px 8px;
+  border-radius: 2px;
+  min-width: 0px;
+  height: 48px;
+  color: rgb(242, 242, 242);
+  background: rgb(0, 111, 201);
+  margin: 0px 16px 0px 0px;
+  vertical-align: top;
+  user-select: none;
+}
+.root-285:hover {
+  border: none;
+  color: rgb(242, 242, 242);
+  background: rgb(0, 107, 195);
+}
+.root-285:active {
+  border: 1px solid rgb(0, 90, 158);
+  color: rgb(242, 242, 242);
+  background: rgb(0, 91, 165);
+}
+.root-285:active > span {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.label-286 {
+  margin: 0px 4px;
+  line-height: 100%;
+  display: block;
+  font-weight: normal;
+}
+.root-89 {
+  display: inline-block;
+}
+.menuIcon-102 {
+  font-size: 12px;
+  margin: 0px 4px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.css-288 {
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  font-family: FabricMDL2Icons;
+}
+#O365_NavHeader abbr,
+#O365_NavHeader address,
+#O365_NavHeader article,
+#O365_NavHeader aside,
+#O365_NavHeader audio,
+#O365_NavHeader b,
+#O365_NavHeader blockquote,
+#O365_NavHeader body,
+#O365_NavHeader body :focus,
+#O365_NavHeader body div,
+#O365_NavHeader caption,
+#O365_NavHeader cite,
+#O365_NavHeader code,
+#O365_NavHeader dd,
+#O365_NavHeader del,
+#O365_NavHeader details,
+#O365_NavHeader dfn,
+#O365_NavHeader dl,
+#O365_NavHeader dt,
+#O365_NavHeader em,
+#O365_NavHeader fieldset,
+#O365_NavHeader figure,
+#O365_NavHeader footer,
+#O365_NavHeader form,
+#O365_NavHeader h1,
+#O365_NavHeader h2,
+#O365_NavHeader h3,
+#O365_NavHeader h4,
+#O365_NavHeader h5,
+#O365_NavHeader h6,
+#O365_NavHeader header,
+#O365_NavHeader html,
+#O365_NavHeader i,
+#O365_NavHeader iframe,
+#O365_NavHeader img,
+#O365_NavHeader ins,
+#O365_NavHeader kbd,
+#O365_NavHeader label,
+#O365_NavHeader legend,
+#O365_NavHeader li,
+#O365_NavHeader mark,
+#O365_NavHeader menu,
+#O365_NavHeader nav,
+#O365_NavHeader object,
+#O365_NavHeader ol,
+#O365_NavHeader p,
+#O365_NavHeader pre,
+#O365_NavHeader q,
+#O365_NavHeader samp,
+#O365_NavHeader section,
+#O365_NavHeader small,
+#O365_NavHeader strong,
+#O365_NavHeader sub,
+#O365_NavHeader summary,
+#O365_NavHeader sup,
+#O365_NavHeader table,
+#O365_NavHeader tbody,
+#O365_NavHeader td,
+#O365_NavHeader tfoot,
+#O365_NavHeader th,
+#O365_NavHeader thead,
+#O365_NavHeader time,
+#O365_NavHeader tr,
+#O365_NavHeader ul,
+#O365_NavHeader var,
+#O365_NavHeader video,
+#O365fpcontainerid abbr,
+#O365fpcontainerid address,
+#O365fpcontainerid article,
+#O365fpcontainerid aside,
+#O365fpcontainerid audio,
+#O365fpcontainerid b,
+#O365fpcontainerid blockquote,
+#O365fpcontainerid body,
+#O365fpcontainerid body :focus,
+#O365fpcontainerid body div,
+#O365fpcontainerid caption,
+#O365fpcontainerid cite,
+#O365fpcontainerid code,
+#O365fpcontainerid dd,
+#O365fpcontainerid del,
+#O365fpcontainerid details,
+#O365fpcontainerid dfn,
+#O365fpcontainerid dl,
+#O365fpcontainerid dt,
+#O365fpcontainerid em,
+#O365fpcontainerid fieldset,
+#O365fpcontainerid figure,
+#O365fpcontainerid footer,
+#O365fpcontainerid form,
+#O365fpcontainerid h1,
+#O365fpcontainerid h2,
+#O365fpcontainerid h3,
+#O365fpcontainerid h4,
+#O365fpcontainerid h5,
+#O365fpcontainerid h6,
+#O365fpcontainerid header,
+#O365fpcontainerid html,
+#O365fpcontainerid i,
+#O365fpcontainerid iframe,
+#O365fpcontainerid img,
+#O365fpcontainerid ins,
+#O365fpcontainerid kbd,
+#O365fpcontainerid label,
+#O365fpcontainerid legend,
+#O365fpcontainerid li,
+#O365fpcontainerid mark,
+#O365fpcontainerid menu,
+#O365fpcontainerid nav,
+#O365fpcontainerid object,
+#O365fpcontainerid ol,
+#O365fpcontainerid p,
+#O365fpcontainerid pre,
+#O365fpcontainerid q,
+#O365fpcontainerid samp,
+#O365fpcontainerid section,
+#O365fpcontainerid small,
+#O365fpcontainerid strong,
+#O365fpcontainerid sub,
+#O365fpcontainerid summary,
+#O365fpcontainerid sup,
+#O365fpcontainerid table,
+#O365fpcontainerid tbody,
+#O365fpcontainerid td,
+#O365fpcontainerid tfoot,
+#O365fpcontainerid th,
+#O365fpcontainerid thead,
+#O365fpcontainerid time,
+#O365fpcontainerid tr,
+#O365fpcontainerid ul,
+#O365fpcontainerid var,
+#O365fpcontainerid video,
+.o365shell-popup abbr,
+.o365shell-popup address,
+.o365shell-popup article,
+.o365shell-popup aside,
+.o365shell-popup audio,
+.o365shell-popup b,
+.o365shell-popup blockquote,
+.o365shell-popup body,
+.o365shell-popup body :focus,
+.o365shell-popup body div,
+.o365shell-popup caption,
+.o365shell-popup cite,
+.o365shell-popup code,
+.o365shell-popup dd,
+.o365shell-popup del,
+.o365shell-popup details,
+.o365shell-popup dfn,
+.o365shell-popup dl,
+.o365shell-popup dt,
+.o365shell-popup em,
+.o365shell-popup fieldset,
+.o365shell-popup figure,
+.o365shell-popup footer,
+.o365shell-popup form,
+.o365shell-popup h1,
+.o365shell-popup h2,
+.o365shell-popup h3,
+.o365shell-popup h4,
+.o365shell-popup h5,
+.o365shell-popup h6,
+.o365shell-popup header,
+.o365shell-popup html,
+.o365shell-popup i,
+.o365shell-popup iframe,
+.o365shell-popup img,
+.o365shell-popup ins,
+.o365shell-popup kbd,
+.o365shell-popup label,
+.o365shell-popup legend,
+.o365shell-popup li,
+.o365shell-popup mark,
+.o365shell-popup menu,
+.o365shell-popup nav,
+.o365shell-popup object,
+.o365shell-popup ol,
+.o365shell-popup p,
+.o365shell-popup pre,
+.o365shell-popup q,
+.o365shell-popup samp,
+.o365shell-popup section,
+.o365shell-popup small,
+.o365shell-popup strong,
+.o365shell-popup sub,
+.o365shell-popup summary,
+.o365shell-popup sup,
+.o365shell-popup table,
+.o365shell-popup tbody,
+.o365shell-popup td,
+.o365shell-popup tfoot,
+.o365shell-popup th,
+.o365shell-popup thead,
+.o365shell-popup time,
+.o365shell-popup tr,
+.o365shell-popup ul,
+.o365shell-popup var,
+.o365shell-popup video {
+  box-sizing: content-box;
+}
+.o365cs-base ._19RqVuyYJ8MMsIOLN6_XRh {
+  height: 100%;
+}
+._22C064QVKdcRZOXJCYilG4 {
+  display: inherit;
+}
+.o365cs-base .ms-Icon--Help::before {
+  content: "";
+}
+.o365cs-base ._1REjXI0cXpkTlQHDFt6Ip4 {
+  justify-content: flex-end;
+  max-width: 48px;
+}
+._11x07DnMTdw1Y_UWzf8jD9 {
+  display: flex;
+  flex: 0 0 auto;
+}
+.o365cs-base .o365sx-highContrastButton {
+  @media screen and (-ms-high-contrast: black-on-white) {
+    color: black;
+    background-color: white;
+  }
+  @media screen and (-ms-high-contrast: white-on-black) {
+    color: white;
+    background-color: black;
+  }
+}
+.o365cs-base .o365sx-highContrastButton:hover {
+  @media screen and (-ms-high-contrast: white-on-black) {
+    background-color: rgb(26, 235, 255);
+  }
+  @media screen and (-ms-high-contrast: black-on-white) {
+    background-color: rgb(55, 0, 110);
+  }
+}
+.o365cs-base .o365sx-highContrastButton :focus {
+  @media screen and (-ms-high-contrast: white-on-black) {
+    background-color: rgb(26, 235, 255);
+  }
+  @media screen and (-ms-high-contrast: black-on-white) {
+    background-color: rgb(55, 0, 110);
+  }
+}
+._1bksysgrgvI4e64M4iteg0 {
+  height: 100%;
+  max-width: 176px;
+  display: flex;
+}
+._2r3tGOSyvyUola8y7ahgJG {
+  text-align: left;
+  display: block;
+  overflow: hidden;
+  max-width: 160px;
+  font-size: 13px;
+  font-family: SegoeUI-Regular-final, "Segoe UI", "Segoe UI Web (West European)",
+    Segoe, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Tahoma,
+    Helvetica, Arial, sans-serif;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: nowrap;
+  line-height: 48px;
+}
+._2r3tGOSyvyUola8y7ahgJG > span {
+  padding-left: 12px;
+  padding-right: 4px;
+  display: none;
+}
+.UOslb0cbjSsi0A3IdDqDS {
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left-width: 0px !important;
+}
+._1vuKzsQNhg5QNnJlA2a5Co {
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  font-size: 6px;
+}
+._1vuKzsQNhg5QNnJlA2a5Co,
+._3yZwce56ZwsXDLwEtU0IP9,
+._1TdybwJwBVv9HbLUWUPtp9 {
+  width: 32px;
+  height: 32px;
+}
+._2Evhc1Nj0AOSMKq6j11gui {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+._2imBsJkdUC8Nz6Zy7pL13I,
+.nvEhuDKzSmREBsqaIaOhu,
+.nvEhuDKzSmREBsqaIaOhu img {
+  width: 100%;
+  height: 100%;
+}
+._2imBsJkdUC8Nz6Zy7pL13I {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: SegoeUI-SemiLight-final, "Segoe UI Semilight",
+    SegoeUI-Regular-final, "Segoe UI", "Segoe UI Web (West European)", Segoe,
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Tahoma,
+    Helvetica, Arial, sans-serif;
+  line-height: 195%;
+}
+._19GJt6Z_0Zp9WoP5K0hTuI {
+  font-family: SegoeUI-Regular-final, "Segoe UI", "Segoe UI Web (West European)",
+    Segoe, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Tahoma,
+    Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px !important;
+  line-height: normal !important;
+}
+.SGp8LDri112SIQr1_LOYO,
+._19GJt6Z_0Zp9WoP5K0hTuI {
+  border: 1px solid;
+  box-sizing: border-box;
+  background-color: transparent !important;
+}
+.nvEhuDKzSmREBsqaIaOhu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  line-height: normal;
+}
+.E_F_OxQg1uGSuqY-R5dwP {
+  text-align: right;
+  vertical-align: middle;
+  display: table-cell;
+  overflow: hidden;
+  max-width: 120px;
+  font-size: 14px;
+  font-family: SegoeUI-SemiLight-final, "Segoe UI Semilight",
+    SegoeUI-Regular-final, "Segoe UI", "Segoe UI Web (West European)", Segoe,
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Tahoma,
+    Helvetica, Arial, sans-serif;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: nowrap;
+  margin-left: 4px;
+}
+.E_F_OxQg1uGSuqY-R5dwP > span {
+  padding-left: 4px;
+  display: none;
+}
+._1TdybwJwBVv9HbLUWUPtp9 {
+  overflow: hidden;
+  display: inline-block;
+  border: thin solid rgb(255, 255, 255);
+  border-radius: 50%;
+  vertical-align: middle;
+  font-size: 6px;
+}
+._3yZwce56ZwsXDLwEtU0IP9 {
+  border-radius: 50%;
+  line-height: 1 !important;
+}
+._3yZwce56ZwsXDLwEtU0IP9::before {
+  margin-top: 0.4em;
+}
+.o365cs-base .ms-icon-font-size-18 {
+}
+.o365cs-base .ms-Icon--Contact::before {
+  content: "";
+}
+.o365cs-base .o365sx-accent-font {
+  background-color: rgb(0, 89, 162);
+}
+#main-content-landing {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100%;
+}
+.content-container::before,
+.content-container::after {
+  content: " ";
+  display: table;
+}
+.content-container::after {
+  clear: both;
+}
+.body-163 {
+  color: rgb(50, 49, 48);
+  background: rgb(242, 242, 242);
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+.css-164 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: rgb(242, 242, 242);
+}
+.css-164 > * {
+  text-overflow: ellipsis;
+}
+.css-164 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-177 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+.css-177 > * {
+  text-overflow: ellipsis;
+}
+.css-177 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-178 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+  height: auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.css-178 > * {
+  text-overflow: ellipsis;
+}
+.css-178 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+.css-179 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.css-179 > * {
+  text-overflow: ellipsis;
+}
+.css-179 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-180 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.css-180 > * {
+  text-overflow: ellipsis;
+}
+.css-180 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-182 {
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: visible;
+  height: auto;
+  display: flex;
+  padding: 30px 0px 0px;
+}
+.css-181 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+  overflow: visible;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+}
+.css-181 > * {
+  margin: 0px;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.css-183 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: 50%;
+  flex-shrink: 0;
+}
+.root-231 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.dataWrapper-325 {
+  position: static;
+  inset: 0px;
+  opacity: 1;
+  background: none transparent;
+  border: none;
+  transition: opacity 200ms ease 0s;
+}
+.css-235 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 18px 0px 8px;
+}
+.css-235 > * {
+  text-overflow: ellipsis;
+}
+.css-235 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-236 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 72px;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0px 16px 0px 0px;
+}
+.css-236 > * {
+  text-overflow: ellipsis;
+}
+.css-236 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.root-335 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: inherit;
+  font-weight: inherit;
+  color: rgb(0, 111, 201);
+  outline: none;
+  text-decoration: none;
+  position: relative;
+}
+.root-335:active {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-335:hover {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-335:active:hover {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-335:focus {
+  color: rgb(0, 111, 201);
+}
+.root-337 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: rgb(50, 49, 48);
+  position: relative;
+  height: 72px;
+  min-width: 72px;
+  display: flex;
+  align-items: center;
+}
+.coin-344 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+}
+.imageArea-346 {
+  position: relative;
+  text-align: center;
+  flex: 0 0 auto;
+  height: 72px;
+  width: 72px;
+}
+.initials-349 {
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 72px;
+  height: 72px;
+  background-color: rgb(0, 120, 212);
+}
+.initials-349 i {
+  font-weight: 600;
+}
+.root-426 {
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  font-family: FabricMDL2Icons-0;
+}
+.details-338 {
+  padding: 0px 24px 0px 16px;
+  min-width: 0px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.css-202 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.css-235 > :not(:first-child) {
+  margin-left: 0px;
+}
+.css-202 > * {
+  text-overflow: ellipsis;
+}
+.css-202 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.root-352 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: inherit;
+  font-weight: inherit;
+  color: rgb(50, 49, 48);
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 3px;
+}
+.root-352:active {
+  color: rgb(50, 49, 48);
+  text-decoration: underline;
+}
+.root-352:hover {
+  color: rgb(50, 49, 48);
+  text-decoration: underline;
+}
+.root-352:active:hover {
+  color: rgb(50, 49, 48);
+  text-decoration: underline;
+}
+.root-352:focus {
+  color: rgb(50, 49, 48);
+  outline: rgb(50, 49, 48) auto 1px;
+  box-shadow: none;
+  text-decoration: underline;
+}
+.root-352:focus:hover {
+  color: rgb(50, 49, 48);
+  text-decoration: underline;
+}
+.css-353 {
+  font-family: "Segoe UI Variable Display", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(50, 49, 48);
+  display: inline;
+  line-height: 1.4;
+}
+.css-202 > :not(:first-child) {
+  margin-top: 0px;
+}
+.root-354 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: inherit;
+  font-weight: inherit;
+  color: rgb(96, 94, 92);
+  outline: none;
+  text-decoration: none;
+  display: flex;
+}
+.root-354:active {
+  color: rgb(0, 111, 201);
+  text-decoration: underline;
+}
+.root-354:hover {
+  color: rgb(25, 126, 208);
+  text-decoration: underline;
+}
+.root-354:active:hover {
+  color: rgb(0, 111, 201);
+  text-decoration: underline;
+}
+.root-354:focus {
+  color: rgb(25, 126, 208);
+  outline: rgb(25, 126, 208) solid 1px;
+  text-decoration: underline;
+}
+.root-354:focus:hover {
+  color: rgb(25, 126, 208);
+  text-decoration: underline;
+}
+.css-355 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: auto;
+  flex-shrink: 0;
+  padding: 0px 6px 0px 2px;
+}
+.Mail::before {
+  content: "";
+}
+.css-356 {
+  font-family: "Segoe UI Variable Small", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  font-weight: 400;
+  color: unset;
+  display: inline;
+  line-height: 1.4;
+}
+.css-181 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-185 {
+  flex-wrap: wrap;
+  width: 50%;
+  overflow: visible;
+  height: auto;
+  justify-content: flex-end;
+  display: flex;
+}
+.css-184 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+  overflow: visible;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100vw;
+  justify-content: flex-end;
+  height: 100%;
+}
+.css-184 > * {
+  margin: 0px;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.css-250 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.css-250 > * {
+  text-overflow: ellipsis;
+}
+.css-326 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: auto;
+  flex-shrink: 1;
+}
+.root-333 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: inherit;
+  font-weight: inherit;
+  color: rgb(0, 111, 201);
+  outline: none;
+  text-decoration: none;
+  background: none transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  cursor: pointer;
+  display: inline;
+  margin: 0px;
+  overflow: inherit;
+  padding: 0px;
+  text-align: left;
+  text-overflow: inherit;
+  border-bottom: 1px solid transparent;
+  max-width: 100%;
+  user-select: text;
+}
+.root-333:active {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-333:hover {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-333:active:hover {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-333:focus {
+  color: rgb(0, 111, 201);
+  outline: rgb(50, 49, 48) solid 1px;
+}
+.root-333:active:focus {
+  outline: 0px;
+}
+.css-334 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 32px;
+  height: auto;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 5px;
+  margin-right: 13px;
+}
+.root-333 .FullCircleMask {
+  color: rgb(207, 229, 246);
+}
+.root-333:focus .FullCircleMask {
+  color: highlight;
+}
+.root-333:hover .FullCircleMask {
+  color: rgb(25, 126, 208);
+}
+.root-333:active:focus .FullCircleMask {
+  color: rgb(0, 111, 201);
+}
+.css-334 > * {
+  text-overflow: ellipsis;
+}
+.css-334 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-334 .FullCircleMask {
+  float: left;
+  font-size: 32px;
+  line-height: 32px;
+}
+.FullCircleMask::before {
+  content: "";
+}
+.root-333 .MicrosoftLogo {
+  color: rgb(0, 111, 201);
+}
+.root-333:focus .MicrosoftLogo {
+  color: window;
+}
+.root-333:hover .MicrosoftLogo {
+  color: rgb(255, 255, 255);
+}
+.root-333:active:focus .MicrosoftLogo {
+  color: rgb(255, 255, 255);
+}
+.css-334 > :not(:first-child) {
+  margin-left: 0px;
+}
+.css-334 .MicrosoftLogo {
+  float: left;
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: -24px;
+}
+.MicrosoftLogo::before {
+  content: "";
+}
+.css-329 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-right: 13px;
+}
+.css-329 > * {
+  text-overflow: ellipsis;
+}
+.css-329 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-329 .infoColumnCta {
+  font-weight: 600;
+}
+.css-330 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(50, 49, 48);
+  display: block;
+}
+.root-333 .infoColumnCta {
+  color: rgb(50, 49, 48);
+}
+.root-333:focus .infoColumnCta {
+  color: highlight;
+}
+.root-333:hover .infoColumnCta {
+  color: rgb(25, 126, 208);
+}
+.root-333:active:focus .infoColumnCta {
+  color: rgb(0, 111, 201);
+}
+.css-329 > :not(:first-child) {
+  margin-top: 0px;
+}
+.css-329 .infoColumnInfoText {
+  line-height: 16px;
+}
+.root-333 .infoColumnInfoText {
+  color: rgb(96, 94, 92);
+}
+.root-333:focus .infoColumnInfoText {
+  color: highlight;
+}
+.root-333:hover .infoColumnInfoText {
+  color: rgb(25, 126, 208);
+}
+.root-333:active:focus .infoColumnInfoText {
+  color: rgb(0, 111, 201);
+}
+.root-327 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: inherit;
+  font-weight: inherit;
+  color: rgb(0, 111, 201);
+  outline: none;
+  text-decoration: none;
+  max-width: 100%;
+}
+.root-327:active {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-327:hover {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-327:active:hover {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-327:focus {
+  color: rgb(0, 111, 201);
+  outline: rgb(50, 49, 48) solid 1px;
+}
+.root-327:active:focus {
+  outline: 0px;
+}
+.css-328 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 32px;
+  height: auto;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 5px;
+  margin-right: 13px;
+}
+.root-327 .FullCircleMask {
+  color: rgb(207, 229, 246);
+}
+.root-327:focus .FullCircleMask {
+  color: highlight;
+}
+.root-327:hover .FullCircleMask {
+  color: rgb(25, 126, 208);
+}
+.root-327:active:focus .FullCircleMask {
+  color: rgb(0, 111, 201);
+}
+.css-328 > * {
+  text-overflow: ellipsis;
+}
+.css-328 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-328 .FullCircleMask {
+  float: left;
+  font-size: 32px;
+  line-height: 32px;
+}
+.root-327 .Permissions {
+  color: rgb(0, 111, 201);
+}
+.root-327:focus .Permissions {
+  color: window;
+}
+.root-327:hover .Permissions {
+  color: rgb(255, 255, 255);
+}
+.root-327:active:focus .Permissions {
+  color: rgb(255, 255, 255);
+}
+.css-328 > :not(:first-child) {
+  margin-left: 0px;
+}
+.css-328 .Permissions {
+  float: left;
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: -24px;
+}
+.Permissions::before {
+  content: "";
+}
+.root-327 .infoColumnCta {
+  color: rgb(50, 49, 48);
+}
+.root-327:focus .infoColumnCta {
+  color: highlight;
+}
+.root-327:hover .infoColumnCta {
+  color: rgb(25, 126, 208);
+}
+.root-327:active:focus .infoColumnCta {
+  color: rgb(0, 111, 201);
+}
+.root-327 .infoColumnInfoText {
+  color: rgb(96, 94, 92);
+}
+.root-327:focus .infoColumnInfoText {
+  color: highlight;
+}
+.root-327:hover .infoColumnInfoText {
+  color: rgb(25, 126, 208);
+}
+.root-327:active:focus .infoColumnInfoText {
+  color: rgb(0, 111, 201);
+}
+.css-180 > :not(:first-child) {
+  margin-top: 25px;
+}
+.css-186 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.css-186 > * {
+  text-overflow: ellipsis;
+}
+.css-186 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-187 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.css-187 > * {
+  text-overflow: ellipsis;
+}
+.css-187 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-188 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.css-188 > * {
+  text-overflow: ellipsis;
+}
+.css-188 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-189 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 1.6px 3.6px 0px,
+    rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px 0px;
+}
+.css-189 > * {
+  text-overflow: ellipsis;
+}
+.css-189 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-190 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+.css-190 > * {
+  text-overflow: ellipsis;
+}
+.css-190 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-191 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.css-191 > * {
+  text-overflow: ellipsis;
+}
+.css-191 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-192 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  border-width: 0px;
+  padding: 0px;
+}
+.css-192 > * {
+  text-overflow: ellipsis;
+}
+.css-192 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-193:focus {
+  outline: none;
+}
+.css-194 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: center;
+  min-height: 48px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+}
+.css-194:hover {
+  background-color: rgb(232, 232, 232);
+}
+.css-194:active {
+  background-color: rgb(222, 222, 222);
+}
+.css-194 > * {
+  text-overflow: ellipsis;
+}
+.css-194 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-195 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  padding: 8px 0px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.css-195 > * {
+  text-overflow: ellipsis;
+}
+.css-195 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-196 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.css-196 > * {
+  text-overflow: ellipsis;
+}
+.css-196 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-197 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  align-items: center;
+}
+.css-197 > * {
+  text-overflow: ellipsis;
+}
+.css-198 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: calc(100% - 0px);
+  flex-shrink: 0;
+}
+.css-199 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 16px;
+}
+.css-199 > * {
+  text-overflow: ellipsis;
+}
+.css-199 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-200 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: calc(100% - 48px);
+  height: auto;
+  box-sizing: border-box;
+}
+.css-200 > * {
+  text-overflow: ellipsis;
+}
+.css-200 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-201 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  align-items: center;
+}
+.css-201 > * {
+  text-overflow: ellipsis;
+}
+.css-201 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-203 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0px 4px;
+}
+.css-203 > * {
+  text-overflow: ellipsis;
+}
+.css-204 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: 32px;
+  width: auto;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+.root-320 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  animation-name: css-0;
+  animation-duration: 0.367s;
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-fill-mode: both;
+}
+.image-321 {
+  display: block;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+}
+.css-203 > :not(:first-child) {
+  margin-left: 8px;
+}
+.css-207 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: auto;
+  flex-grow: 1;
+  align-self: center;
+}
+.css-208 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: center;
+  overflow: hidden;
+}
+.css-208 > * {
+  text-overflow: ellipsis;
+}
+.css-208 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-209 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.css-209 > * {
+  text-overflow: ellipsis;
+}
+.css-209 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-210 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(50, 49, 48);
+  display: inline;
+  line-height: 1.4;
+}
+.css-208 > :not(:first-child) {
+  margin-top: 0px;
+}
+.css-211 {
+  font-family: "Segoe UI Variable Small", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(96, 94, 92);
+  display: inline;
+  line-height: 1.4;
+}
+.css-199 > :not(:first-child) {
+  margin-left: 0px;
+}
+.css-212 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 0px 16px;
+}
+.css-212 > * {
+  text-overflow: ellipsis;
+}
+.css-212 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.ChevronDownMed::before {
+  content: "";
+}
+.css-190 > :not(:first-child) {
+  margin-top: 0px;
+}
+.css-255 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  margin-top: 1px;
+}
+.css-255 > * {
+  text-overflow: ellipsis;
+}
+.css-255 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-256 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  border-bottom: 0px;
+}
+.css-256 > * {
+  text-overflow: ellipsis;
+}
+.css-256 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-257 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 1.6px 3.6px 0px,
+    rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px 0px;
+  min-height: 168px;
+  overflow: hidden;
+}
+.css-257 > * {
+  text-overflow: ellipsis;
+}
+.css-257 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-258 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: calc(58.3333% - 6.66667px);
+  flex-shrink: 0;
+}
+.css-406 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 16px 0px 16px 64px;
+}
+.css-406 > * {
+  text-overflow: ellipsis;
+}
+.css-406 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-407 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+.css-407 > * {
+  text-overflow: ellipsis;
+}
+.css-408 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: auto;
+  flex-shrink: 0;
+  margin: 0px 0px 12px;
+}
+.css-409 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(50, 49, 48);
+  display: inline;
+  line-height: 1.4;
+}
+.css-407 > :not(:first-child) {
+  margin-top: 0px;
+}
+.css-410 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(50, 49, 48);
+  display: inline;
+  line-height: 1.4;
+}
+.css-407 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-412 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  align-items: baseline;
+}
+.css-412 > * {
+  text-overflow: ellipsis;
+}
+.css-412 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.root-413 {
+  outline: transparent;
+  position: relative;
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 111, 201);
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px 16px;
+  border-radius: 2px;
+  min-width: 80px;
+  height: unset;
+  background-color: rgb(0, 111, 201);
+  color: rgb(242, 242, 242);
+  min-height: 32px;
+  user-select: none;
+}
+.root-413:hover {
+  background-color: rgb(0, 100, 181);
+  border: 1px solid rgb(0, 100, 181);
+  color: rgb(242, 242, 242);
+}
+.root-413:active {
+  background-color: rgb(0, 84, 153);
+  border: 1px solid rgb(0, 84, 153);
+  color: rgb(242, 242, 242);
+}
+.root-413:active > span {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.textContainer-414 {
+  flex-grow: 1;
+  display: block;
+  padding: 6px 0px;
+}
+.label-415 {
+  margin: 0px 4px;
+  line-height: normal;
+  display: block;
+  font-weight: 600;
+}
+.css-197 > :not(:first-child) {
+  margin-left: 16px;
+}
+.css-264 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: calc(8.33333% - 14.6667px);
+  flex-shrink: 0;
+}
+.css-265 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: calc(33.3333% - 10.6667px);
+  flex-shrink: 0;
+}
+.root-322 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  animation-name: css-0;
+  animation-duration: 0.367s;
+  animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+  animation-fill-mode: both;
+  position: relative;
+}
+.image-423 {
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.css-188 > :not(:first-child) {
+  margin-top: 8px;
+}
+.css-405 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+.css-405 > * {
+  text-overflow: ellipsis;
+}
+.css-405 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.root-411 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(0, 111, 201);
+  outline: none;
+  text-decoration: none;
+  line-height: 1.4;
+}
+.root-411:active {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-411:hover {
+  color: rgb(0, 84, 153);
+  text-decoration: underline;
+}
+.root-411:active:hover {
+  color: rgb(0, 62, 113);
+  text-decoration: underline;
+}
+.root-411:focus {
+  color: rgb(0, 111, 201);
+}
+.css-416 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 16px 16px 16px 0px;
+}
+.css-416 > * {
+  text-overflow: ellipsis;
+}
+.css-416 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.image-332 {
+  display: block;
+  opacity: 1;
+  max-height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.css-105 > :not(:first-child) {
+  margin-top: 0px;
+}
+.css-417 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 3.2px 7.2px 0px,
+    rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px 0px;
+  border-radius: 0px 0px 4px 4px;
+  padding: 8px 0px 8px 16px;
+  background-color: rgb(250, 250, 250);
+}
+.css-417 > * {
+  text-overflow: ellipsis;
+}
+.css-417 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-418 {
+  flex-wrap: wrap;
+  width: auto;
+  overflow: visible;
+  height: auto;
+  display: flex;
+}
+.css-419 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0px 16px 0px 0px;
+}
+.css-419 > * {
+  text-overflow: ellipsis;
+}
+.css-419 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-420 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(96, 94, 92);
+  display: inline;
+  line-height: 1.4;
+}
+.css-421 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px -8px;
+  overflow: visible;
+  box-sizing: border-box;
+  width: calc(100% + 16px);
+  max-width: 100vw;
+  height: 100%;
+}
+.css-421 > * {
+  margin: 0px 8px;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 16px);
+}
+.css-213 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.css-187 > :not(:first-child) {
+  margin-top: 32px;
+}
+.css-268 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 244px;
+  max-width: 1200px;
+}
+.css-215 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.css-268 > * {
+  text-overflow: ellipsis;
+}
+.css-268 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-215 > * {
+  text-overflow: ellipsis;
+}
+.css-269 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  flex-basis: auto;
+  height: auto;
+  width: calc(25% - 12px);
+  flex-shrink: 0;
+}
+.css-216 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: 424px;
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-color: rgb(255, 255, 255);
+  min-width: 244px;
+  max-width: 288px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 1.6px 3.6px 0px,
+    rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px 0px;
+  overflow: hidden;
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+.css-216:hover {
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 3.2px 7.2px 0px,
+    rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px 0px;
+}
+.css-216 > * {
+  text-overflow: ellipsis;
+}
+.css-216 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-217 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: 44px;
+  padding: 12px 0px 12px 16px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+.css-217:hover {
+  background-color: rgb(250, 250, 250);
+}
+.css-217:active {
+  background: rgb(236, 236, 236);
+}
+.css-217 > * {
+  text-overflow: ellipsis;
+}
+.css-217 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-218 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  align-items: center;
+}
+.css-218 > * {
+  text-overflow: ellipsis;
+}
+.css-218 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-217 > :not(:first-child) {
+  margin-left: 0px;
+}
+.css-216 > :not(:first-child) {
+  margin-top: 0px;
+}
+.css-331 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  margin: 16px 16px 0px;
+  overflow: hidden;
+}
+.css-331 > * {
+  text-overflow: ellipsis;
+}
+.css-331 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-222 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  padding: 16px 16px 0px;
+  box-sizing: border-box;
+  flex-grow: 1;
+  margin-bottom: -20px;
+}
+.css-222 > * {
+  text-overflow: ellipsis;
+}
+.css-222 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.css-223 {
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(50, 49, 48);
+  display: inline;
+  line-height: 1.4;
+}
+.css-222 > :not(:first-child) {
+  margin-top: 10px;
+}
+.root-224 {
+  outline: transparent;
+  position: relative;
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0px 16px 0px 12px;
+  border-radius: 2px;
+  height: 60px;
+  color: rgb(0, 111, 201);
+  background-color: transparent;
+  width: 100%;
+  user-select: none;
+}
+.root-224:hover {
+  color: rgb(0, 111, 201);
+  background: rgb(250, 250, 250);
+}
+.root-224:active {
+  color: rgb(0, 0, 0);
+}
+.root-224:active > span {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.flexContainer-225 {
+  display: flex;
+  height: 100%;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.textContainer-226 {
+  flex-grow: 0;
+  display: block;
+}
+.label-228 {
+  margin: 0px 4px;
+  line-height: 100%;
+  display: block;
+}
+.css-215 > :not(:first-child) {
+  margin-left: 16px;
+}
+.css-219 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  padding: 0px 24px;
+  box-sizing: border-box;
+  margin: 16px 16px 0px;
+  overflow: hidden;
+}
+.css-219 > * {
+  text-overflow: ellipsis;
+}
+.css-219 > :not(.ms-StackItem) {
+  flex-shrink: 1;
+}
+.image-323 {
+  display: block;
+  opacity: 1;
+  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.root-277 {
+  outline: transparent;
+  position: relative;
+  font-family: "Segoe UI Variable Text", "Segoe UI",
+    "Segoe UI Web (West European)", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 111, 201);
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px 16px;
+  border-radius: 2px;
+  min-width: 80px;
+  height: 32px;
+  background-color: rgb(0, 111, 201);
+  color: rgb(242, 242, 242);
+  user-select: none;
+}
+.root-277:hover {
+  background-color: rgb(0, 100, 181);
+  border: 1px solid rgb(0, 100, 181);
+  color: rgb(242, 242, 242);
+}
+.root-277:active {
+  background-color: rgb(0, 84, 153);
+  border: 1px solid rgb(0, 84, 153);
+  color: rgb(242, 242, 242);
+}
+.root-277:active > span {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.Message::before {
+  content: "";
+}
+#site-footer {
+  margin-top: auto;
+  position: relative;
+  z-index: 10;
+}
+#uhf-footer {
+  margin-top: 0px;
+}
+.root-310 {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  position: fixed;
+  z-index: 1000000;
+  inset: 0px;
+  visibility: hidden;
+}
+.content-312 {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(50, 49, 48);
+  visibility: visible;
+}
+.container-314 {
+  position: relative;
+}
+.root-315 {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 3.2px 7.2px 0px,
+    rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px 0px;
+  outline: transparent;
+}
+.calloutMain-318 {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden auto;
+  position: relative;
+  width: 100%;
+  border-radius: 2px;
+}
+.container-290:focus {
+  outline: 0px;
+}
+.root-289 {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  min-width: 180px;
+  background: rgb(255, 255, 255);
+}
+.list-291 {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.root-289 .ms-ContextualMenu-item {
+  margin: 0px;
+}
+.item-294 {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(50, 49, 48);
+  position: relative;
+  box-sizing: border-box;
+}
+.root-289 a:hover {
+  background: rgb(244, 244, 244);
+}
+.root-289 .ms-ContextualMenu-link {
+  color: inherit;
+  outline: none;
+}
+.root-296 {
+  outline: transparent;
+  position: relative;
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI",
+    -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  display: block;
+  cursor: pointer;
+  padding: 0px 8px 0px 4px;
+  text-align: left;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.root-296:hover {
+  background-color: rgb(243, 242, 241);
+  color: rgb(32, 31, 30);
+}
+.root-296:active {
+  background-color: rgb(237, 235, 233);
+}
+.linkContent-300 {
+  white-space: nowrap;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.label-306 {
+  margin: 0px 4px;
+  vertical-align: middle;
+  display: inline-block;
+  flex-grow: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media all {
+  body {
+    margin: 0px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-97 {
+    color: window;
+    background-color: windowtext;
+    border-color: windowtext;
+    forced-color-adjust: none;
+  }
+}
+@media (max-width: 639px) {
+  #O365_MainLink_NavMenu {
+    width: 48px;
+  }
+}
+@media (max-width: 639px) {
+  #O365_MainLink_NavMenu span[class*="ms-Icon--WaffleOffice365"] {
+    padding: 14px 16px;
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-278 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-284 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-284 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-284 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-285 {
+    color: window;
+    background-color: windowtext;
+    border-color: windowtext;
+    forced-color-adjust: none;
+  }
+}
+@media screen and (-ms-high-contrast: active) {
+  #suite-header-root button[data-bi-id="sh-pb-main"] {
+    background: transparent;
+    color: inherit;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-284 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-284 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media (min-width: 640px) {
+  ._1PS7HXecU7aY8QoISdmnQF {
+    max-width: 176px;
+    text-decoration: none;
+  }
+}
+@media (min-width: 640px) {
+  ._1PS7HXecU7aY8QoISdmnQF {
+    max-width: 176px;
+    text-decoration: none;
+  }
+}
+@media (min-width: 640px) {
+  ._1PS7HXecU7aY8QoISdmnQF {
+    max-width: 176px;
+    text-decoration: none;
+  }
+}
+@media (min-width: 640px) {
+  ._1PS7HXecU7aY8QoISdmnQF {
+    max-width: 176px;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .css-179 {
+    padding: 0px 16px 10px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .css-179 {
+    padding: 0px 32px 10px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .css-179 {
+    padding: 0px 48px 10px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .css-179 {
+    padding: 0px 54px 10px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .css-179 {
+    padding: 0px 0px 10px;
+    margin: 0px auto;
+    max-width: 1184px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .css-179 {
+    padding: 0px 0px 10px;
+    margin: 0px auto;
+    max-width: 1184px;
+    width: 100%;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-335 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .initials-349 {
+    border: 1px solid windowtext;
+    forced-color-adjust: none;
+    color: windowtext;
+    box-sizing: border-box;
+    background-color: window !important;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-352 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-354 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .css-250 {
+    padding-top: 4px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .css-250 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .css-250 {
+    padding-top: 29px;
+    padding-bottom: 19px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-333 {
+    border-bottom: none;
+    color: linktext;
+    forced-color-adjust: none;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-333 .FullCircleMask {
+    color: linktext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-333 .MicrosoftLogo {
+    color: window;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-334 .MicrosoftLogo {
+    forced-color-adjust: none;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .css-329 .infoColumnCta {
+    line-height: 16px;
+    margin-top: 8px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .css-329 .infoColumnCta {
+    line-height: 16px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-333 .infoColumnCta {
+    color: linktext;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .css-329 .infoColumnInfoText {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .css-329 .infoColumnInfoText {
+    display: none;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .css-329 .infoColumnInfoText {
+    display: block;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-333 .infoColumnInfoText {
+    color: linktext;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .css-250 {
+    padding-top: 4px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .css-250 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .css-250 {
+    padding-top: 29px;
+    padding-bottom: 19px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-327 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-327 .FullCircleMask {
+    color: linktext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-327 .Permissions {
+    color: window;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-328 .Permissions {
+    forced-color-adjust: none;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-327 .infoColumnCta {
+    color: linktext;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .css-329 .infoColumnCta {
+    line-height: 16px;
+    margin-top: 8px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .css-329 .infoColumnCta {
+    line-height: 16px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-327 .infoColumnInfoText {
+    color: linktext;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .css-329 .infoColumnInfoText {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .css-329 .infoColumnInfoText {
+    display: none;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .css-329 .infoColumnInfoText {
+    display: block;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-189 {
+    border: 1px solid windowtext;
+  }
+}
+@media only screen and (-ms-high-contrast: active), (forced-colors: active) {
+  .css-192 {
+    border-width: 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-257 {
+    outline: transparent solid 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-409 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-410 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-413 {
+    color: window;
+    background-color: windowtext;
+    border-color: windowtext;
+    forced-color-adjust: none;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-189 {
+    border: 1px solid windowtext;
+  }
+}
+@media only screen and (-ms-high-contrast: active), (forced-colors: active) {
+  .css-192 {
+    border-width: 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-257 {
+    outline: transparent solid 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-409 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-410 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-411 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+    color: linktext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-413 {
+    color: window;
+    background-color: windowtext;
+    border-color: windowtext;
+    forced-color-adjust: none;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-420 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-411 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+    color: linktext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-411 {
+    border-bottom: none;
+    forced-color-adjust: auto;
+    color: linktext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-189 {
+    border: 1px solid windowtext;
+  }
+}
+@media only screen and (-ms-high-contrast: active), (forced-colors: active) {
+  .css-192 {
+    border-width: 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-189 {
+    border: 1px solid windowtext;
+  }
+}
+@media only screen and (-ms-high-contrast: active), (forced-colors: active) {
+  .css-192 {
+    border-width: 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-189 {
+    border: 1px solid windowtext;
+  }
+}
+@media only screen and (-ms-high-contrast: active), (forced-colors: active) {
+  .css-192 {
+    border-width: 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-189 {
+    border: 1px solid windowtext;
+  }
+}
+@media only screen and (-ms-high-contrast: active), (forced-colors: active) {
+  .css-192 {
+    border-width: 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-216 {
+    outline: transparent solid 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-223 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-224 {
+    border-color: window;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-216 {
+    outline: transparent solid 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-223 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-224 {
+    border-color: window;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-216 {
+    outline: transparent solid 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-223 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-224 {
+    border-color: window;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-216 {
+    outline: transparent solid 1px;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-210 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-223 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .css-211 {
+    color: windowtext;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-224 {
+    border-color: window;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-277 {
+    color: window;
+    background-color: windowtext;
+    border-color: windowtext;
+    forced-color-adjust: none;
+  }
+}
+@media all {
+  .context-uhf {
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+  }
+}
+@media all {
+  .context-uhf {
+    box-sizing: border-box;
+  }
+}
+@media all {
+  .context-uhf {
+    font-size: 15px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    min-width: 320px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+}
+@media all {
+  .context-uhf {
+    min-width: 280px;
+  }
+}
+@media all {
+  .c-uhff {
+    background: rgb(242, 242, 242);
+    margin-top: 48px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .c-uhff-base {
+    background: rgb(242, 242, 242);
+    margin: 0px auto;
+    max-width: calc(1600px + 10%);
+    padding: 30px 5% 16px;
+  }
+}
+@media all {
+  .context-uhf a {
+    background-color: transparent;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf a:link,
+  .context-uhf a:focus,
+  .context-uhf a:hover,
+  .context-uhf a:active,
+  .context-uhf a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+@media all {
+  .c-glyph {
+    font-style: normal;
+  }
+}
+@media all {
+  .c-uhff-base > a.c-uhff-link.c-uhff-lang-selector {
+    font-size: 11px;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 24px;
+    color: rgb(97, 97, 97);
+    float: left;
+    white-space: nowrap;
+  }
+}
+@media all {
+  .context-uhf a {
+    background-color: transparent;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf a:link,
+  .context-uhf a:focus,
+  .context-uhf a:hover,
+  .context-uhf a:active,
+  .context-uhf a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+@media all {
+  .c-uhff-base .c-uhff-ccpa {
+    display: flex;
+    font-size: 11px;
+    line-height: 16px;
+    padding-right: 24px;
+    padding-top: 4px;
+    color: rgb(97, 97, 97);
+    float: left;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .c-uhff-base .c-uhff-ccpa svg {
+    padding-right: 8px;
+    height: 16px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf aside,
+  .context-uhf details,
+  .context-uhf figcaption,
+  .context-uhf figure,
+  .context-uhf footer,
+  .context-uhf header,
+  .context-uhf menu,
+  .context-uhf nav,
+  .context-uhf section,
+  .context-uhf summary {
+    display: block;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf ul,
+  .context-uhf li {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf h1,
+  .context-uhf h2,
+  .context-uhf h3,
+  .context-uhf h4,
+  .context-uhf h5,
+  .context-uhf h6,
+  .context-uhf ol,
+  .context-uhf p,
+  .context-uhf ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media all {
+  .context-uhf ol,
+  .context-uhf ul {
+    padding: 0px;
+    list-style: none;
+  }
+}
+@media all {
+  .c-list {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 19px;
+    padding-right: 0px;
+    margin: 8px 0px;
+    list-style-position: outside;
+  }
+}
+@media all {
+  .c-list.f-bare {
+    padding-left: 0px;
+    list-style-type: none;
+  }
+}
+@media all {
+  ul.c-list {
+    list-style-type: disc;
+  }
+}
+@media all {
+  .c-uhff-base ul.c-list {
+    font-size: 11px;
+    line-height: 16px;
+    float: right;
+    margin: 3px 0px;
+    color: rgb(97, 97, 97);
+  }
+}
+@media all {
+  .context-uhf ul,
+  .context-uhf li {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .c-list li {
+    padding: 8px 0px;
+  }
+}
+@media all {
+  .c-uhff-base ul.c-list li {
+    padding: 0px 24px 4px 0px;
+    display: inline-block;
+  }
+}
+@media all {
+  .context-uhf a {
+    background-color: transparent;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf a:link,
+  .context-uhf a:focus,
+  .context-uhf a:hover,
+  .context-uhf a:active,
+  .context-uhf a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+@media all {
+  .context-uhf ul,
+  .context-uhf li {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .c-list li {
+    padding: 8px 0px;
+  }
+}
+@media all {
+  .c-uhff-base ul.c-list li {
+    padding: 0px 24px 4px 0px;
+    display: inline-block;
+  }
+}
+@media all {
+  .context-uhf a {
+    background-color: transparent;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf a:link,
+  .context-uhf a:focus,
+  .context-uhf a:hover,
+  .context-uhf a:active,
+  .context-uhf a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+@media all {
+  .context-uhf ul,
+  .context-uhf li {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .c-list li {
+    padding: 8px 0px;
+  }
+}
+@media all {
+  .c-uhff-base ul.c-list li {
+    padding: 0px 24px 4px 0px;
+    display: inline-block;
+  }
+}
+@media all {
+  .context-uhf a {
+    background-color: transparent;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf a:link,
+  .context-uhf a:focus,
+  .context-uhf a:hover,
+  .context-uhf a:active,
+  .context-uhf a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+@media all {
+  .context-uhf ul,
+  .context-uhf li {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .c-list li {
+    padding: 8px 0px;
+  }
+}
+@media all {
+  .c-uhff-base ul.c-list li {
+    padding: 0px 24px 4px 0px;
+    display: inline-block;
+  }
+}
+@media all {
+  .context-uhf a {
+    background-color: transparent;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf a:link,
+  .context-uhf a:focus,
+  .context-uhf a:hover,
+  .context-uhf a:active,
+  .context-uhf a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+@media all {
+  .context-uhf ul,
+  .context-uhf li {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .x-hidden {
+    display: none !important;
+  }
+}
+@media all {
+  .c-list li {
+    padding: 8px 0px;
+  }
+}
+@media all {
+  .c-uhff-base ul.c-list li {
+    padding: 0px 24px 4px 0px;
+    display: inline-block;
+  }
+}
+@media all {
+  .context-uhf a {
+    background-color: transparent;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .context-uhf a:link,
+  .context-uhf a:focus,
+  .context-uhf a:hover,
+  .context-uhf a:active,
+  .context-uhf a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+@media all {
+  .context-uhf ul,
+  .context-uhf li {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media all {
+  .context-uhf *,
+  .context-uhf ::before,
+  .context-uhf ::after {
+    box-sizing: inherit;
+  }
+}
+@media all {
+  .c-list li {
+    padding: 8px 0px;
+  }
+}
+@media all {
+  .c-uhff-base ul.c-list li {
+    padding: 0px 24px 4px 0px;
+    display: inline-block;
+  }
+}
+@media screen and (-ms-high-contrast: active),
+  screen and (forced-colors: active) {
+  .root-315 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: windowtext;
+  }
+}
