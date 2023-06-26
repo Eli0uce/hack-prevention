@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
+  setTimeout(() => {
     // Afficher une alerte personnalisée avec du texte et une image
     const message = 'Merci pour tes coordonnées et mots de passe.';
     const imageUrl = 'https://i.imgur.com/SfafId9.gif';
@@ -14,4 +15,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
         window.close();
       }
     });
-  });
+  }, 2000); // Attendre 2 secondes (2000 millisecondes) avant d'afficher l'alerte
+});
