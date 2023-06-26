@@ -1,6 +1,6 @@
 # Site de Démo de Prévention
 
-Ce site est une démonstration à des fins de prévention pour sensibiliser les utilisateurs sur la facilité de falsification des sites web de nos jours. Aucune donnée n'est collectée et aucune activité malveillante n'est réalisée. Si vous souhaitez contribuer à l'amélioration de la démonstration, n'hésitez pas à ouvrir une demande d'extraction (pull request).
+Ce site est une démonstration à des fins de prévention pour sensibiliser les utilisateurs sur la facilité de falsification des sites web de nos jours. Aucune donnée n'est collectée et aucune activité malveillante n'est réalisée. Si vous souhaitez contribuer à l'amélioration de la démonstration, n'hésitez pas à ouvrir une demande d'extraction (pull request). Le site est une copie de l'html et du css du site officiel de microsoft https://account.microsoft.com/?lang=en-US&refd=account.live.com&refp=landing.
 
 ## Objectif
 
